@@ -3,9 +3,9 @@
 
 while [[ -f "../toCrypt/toCrypt.txt" ]]; do
 
-	python3 ../src/crypt.py ../toCrypt/toCrypt.txt ../toDecrypt/toDecrypt.txt
+	python3 ../src/crypt.py ../tocrypt/tocrypt.txt ../toDecrypt/toDecrypt.txt
 
-	rm ../toCrypt/toCrypt.txt
+	rm ../toCrypt/tocrypt.txt
 
 	sleep 2
 

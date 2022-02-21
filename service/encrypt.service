@@ -4,7 +4,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/home/client/Documents/GSLW/TP3/src/encrypt.sh
+ExecStart=/home/client/Documents/TP3/td_crypted/src/encrypt.sh
 
 [Install]
 WantedBy=multi-user.target
